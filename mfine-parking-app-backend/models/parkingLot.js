@@ -1,9 +1,13 @@
+/*
+ * Created on 07 March 2024
+ * @author Yuva Sai Kiran
+ */
 const mongoose = require("mongoose");
 
 const parkingLotSchema = new mongoose.Schema({
   id: {
     type: String,
-    max:24
+    max: 24,
   },
   capacity: {
     type: Number,

@@ -1,3 +1,7 @@
+/*
+ * Created on 07 March 2024
+ * @author Yuva Sai Kiran
+ */
 const mongoose = require("mongoose");
 
 const parkingSchema = new mongoose.Schema({
